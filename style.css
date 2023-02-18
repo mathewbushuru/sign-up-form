@@ -3,6 +3,7 @@
   --bg-color: #f5fbfb;
   --text-color: #282e27;
   --active: #585744;
+  --error: #e85136;
 }
 * {
   margin: 0;
@@ -59,6 +60,9 @@ body {
   display: flex;
   gap: 3rem;
 }
+.form-row:last-child{
+    margin-bottom: 0rem;
+}
 label {
   display: block;
 }
@@ -68,6 +72,20 @@ input {
   outline-color: var(--text-color);
   width: 20rem;
   padding: 0.25rem;
+}
+.error,
+input:invalid {
+  border: 1px solid var(--error);
+  border-radius: 4px;
+  outline-color: var(--error);
+}
+.errorMessage{
+    display: none;
+    font-size: 0.75rem;
+    color: var(--error);
+}
+.showErrorMessage{
+    display: block;
 }
 button {
   font-family: inherit;
