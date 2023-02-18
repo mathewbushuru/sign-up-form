@@ -18,8 +18,24 @@ body {
   background-color: var(--bg-color);
   display: flex;
 }
+.hero {
+  position: relative;
+}
 .hero-image {
   height: 100%;
+}
+.logo {
+  width: 100%;
+  position: absolute;
+  top: 36vh;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--bg-color);
+  letter-spacing: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1rem 0;
+  background-color: #282e2799;
 }
 .main {
   padding: 3rem;
@@ -30,7 +46,7 @@ body {
   flex: 1;
 }
 .intro,
-.sign-up-form,
+#sign-up-form,
 .submit {
   padding: 2rem;
 }
