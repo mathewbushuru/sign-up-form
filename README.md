@@ -1,3 +1,3 @@
-### Just a sign up form
+### Just a simple sign up form
 
-View [here](https://mathewbushuru.github.io/sign-up-form/)
+View live preview [here](https://mathewbushuru.github.io/sign-up-form/)
